@@ -1,0 +1,11 @@
+listen_port: 5355
+cache_size: 1024
+default_ttl: 60
+
+upstream_dns:
+  - "8.8.8.8:53"
+  - "1.1.1.1:53"
+
+custom_records:
+  "think.server.": "10.129.200.100"
+  "rpi.server.": "10.147.17.196"
